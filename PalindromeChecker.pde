@@ -16,8 +16,8 @@ public void setup()
 public boolean palindrome(String word)
 {
   String x = noSpaces(word);
-  //String y = onlyLetters(x);  
-  String z = noCaps(x);
+  String y = onlyLetters(x);  
+  String z = noCaps(y);
   if (z.equals(reverse(z)))
     return true;
   else return false;
